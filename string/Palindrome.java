@@ -27,7 +27,7 @@ public class Palindrome{
     public static void main(String arg[])throws IOException{
 
         BufferedReader bf=new BufferedReader(new InputStreamReader(System.in));
-
+        System.out.println("Enter String : ");
         String s=bf.readLine();
 
         System.out.println("Is given string palindrome : "+Palindrome.isPalindrome(s));
