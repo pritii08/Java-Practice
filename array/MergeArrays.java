@@ -17,3 +17,45 @@ Explanation: The arrays we are merging are [1] and [].
 The result of the merge is [1].
 
  */
+
+public class MergeArrays{
+
+    public static void mergeSortedArray(int[] ar1,int m,int[] ar2,int n){
+        int i=m-1;
+        int j=n-1;
+        int k=m+n-1;
+
+        while(i>=0 && j>=0){
+            if(ar1[i]>ar2[j]){
+                ar1[k]=ar1[i];
+                i--;
+            }else{
+                ar1[k]=ar2[j];
+                j--;
+            }
+            k--;
+        }
+        while(j>=0){
+            ar1[k]=ar2[j];
+            j--;
+            k--;
+        }
+
+        for(int x : ar1){
+            System.out.println(x);
+        }
+    }
+
+    
+
+    public static void main(String arg[]){
+        
+        MergeArrays m=new MergeArrays();
+
+        int[] ar1={1,2,3,4,0,0,0};
+        int[] ar2={1,8,9};
+        int x=4,y=3;
+        mergeSortedArray(ar1,x,ar2,y);
+
+    }
+}
