@@ -1,3 +1,19 @@
+/**
+Bubble Sort Algorithm:
+Compairing and swapping adjacent elements until it get sorted.
+
+
+logic: 
+for(i=0 to n){
+    for(j=0 to n-i-1){
+        if(arr[j]<arr[j+1]){
+        swap arr[j] with arr[j+1];
+        }
+    }
+}
+
+ */
+
 import java.util.*;
 
 public class BubbleSort{
