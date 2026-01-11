@@ -20,6 +20,10 @@ public class DigitCount{
         System.out.println("Enter the number : ");
         int n=sc.nextInt();
 
+        if(n==0){
+            System.out.print("Digit count ="+1);
+        }
+
         System.out.println("Number of digit = "+c.digitCnt(n));
 
 
