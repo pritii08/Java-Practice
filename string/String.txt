@@ -1,0 +1,32 @@
+String is object that stores sequence of characters.
+
+Syntax : 
+
+String str="";
+String str=new String();
+
+String Methods :
+
+str.length() : Returns the length of string
+
+str.charAt(index) : Return the character at the given index
+
+str.toCharArray() : Convert the given string to char toCharArray
+
+str.indexOf('c') : Return the index of given character
+
+String.valuOf(object) : Convert the given object, int, float, double values into string.
+
+str.substring(startIndex,endIndex) : Creates substring from the string
+
+str.isEmpty() : Return true if string is empty
+
+str.split(" ") : Used to split the string into parts
+
+str.toUppercase() : Convert string into uppercase
+
+str.toLowerCase() : Convert string into lowercase
+
+str.trim() : Remove extra space from string
+
+str.replace(oldValue, newValue) : Replace the old value from string with new value
