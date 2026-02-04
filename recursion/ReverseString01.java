@@ -1,8 +1,7 @@
 /** Reversing a string using recursion */
+package recursion;
 
-import java.util.*;
-
-public class ReverseString{
+public class ReverseString01{
 
     public static String reverseString(String str){
         if(str.length()==0 || str==null){
