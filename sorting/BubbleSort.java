@@ -1,3 +1,4 @@
+package sorting;
 /**
 Bubble Sort Algorithm:
 Compairing and swapping adjacent elements until it get sorted.

@@ -1,1 +1,4 @@
 *.class
+*.idea/
+*Java-Practice.iml
+*out/
